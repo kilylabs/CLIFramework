@@ -81,7 +81,7 @@ class DevelopmentExceptionPrinter
         $this->logger->info("Trace:\n");
         $trace = $e->getTrace();
         foreach ($trace as $idx => $entry) {
-            $argDesc = $this->dumpArgs($entry['args']);
+            $argDesc = $this->dumpArgs($entry['args']??[]);
             $this->logger->info(sprintf("    %d) %s%s%s(%s)", $idx, @$entry['class'], @$entry['type'], $entry['function'], $argDesc));
         }
         $this->logger->newline();
