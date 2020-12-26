@@ -161,7 +161,7 @@ class Table
 
             $expandAttribute = false;
             if (is_array($cell)) {
-                if ($cell[0] instanceof CellAttribute) {
+                if (isset($cell[0]) && $cell[0] instanceof CellAttribute) {
                     $attribute = array_shift($cell);
                     $expandAttribute = true;
                 }
