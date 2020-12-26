@@ -1,6 +1,6 @@
 {
-    "name": "corneltek/cliframework",
-    "homepage": "http://github.com/c9s/CLIFramework",
+    "name": "kilylabs/cliframework",
+    "homepage": "http://github.com/kilylabs/CLIFramework",
     "description": "Command-line framework for PHP",
     "keywords": [
         "command",
