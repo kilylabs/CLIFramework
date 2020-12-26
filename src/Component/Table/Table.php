@@ -222,8 +222,7 @@ class Table
         }
 
         $headerColumnWidth = isset($this->headers[$col]) ? mb_strlen($this->headers[$col]) : 0;
-        $maxContentWidth = max($lengths);
-        ;
+        $maxContentWidth = $lengths ? max($lengths) : 0;
 
         if (empty($lengths) || $headerColumnWidth > $maxContentWidth) {
             return $this->columnWidth[$col] = $headerColumnWidth;
