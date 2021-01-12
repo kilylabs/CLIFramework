@@ -14,7 +14,7 @@
         "php": ">=5.3.0",
         "corneltek/getoptionkit": "~2.5.4",
         "universal/universal": "2.0.x-dev",
-        "corneltek/codegen": "4.0.x-dev",
+        "corneltek/codegen": "dev-master",
         "pimple/pimple": "*",
         "symfony/finder": "~2.8|~3.0|~3.2",
         "symfony/class-loader": "~2.8|~3.0|~3.2"
